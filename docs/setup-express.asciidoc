@@ -1,5 +1,16 @@
 = Express Essentials
+ifdef::env-github[]
+// Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+// Table of contents
 :toc:
+// Section options
+:sectlinks:
+:sectanchor:
 
 == Terms
 
