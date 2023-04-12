@@ -26,7 +26,7 @@ cd express-essentials
 npm init
 ----
 
-== Install express-generator
+== Install express-generator (Automated setup)
 
 You can use the express generator to setup your initial project and save time. The following steps walk through the manual process.
 
@@ -34,7 +34,8 @@ You can use the express generator to setup your initial project and save time. T
 npm install express-generator
 ----
 
-== Install express and nodemon
+
+== Install express and nodemon (Manual Setup)
 
 ----
 npm install express nodemon
