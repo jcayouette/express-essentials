@@ -18,7 +18,7 @@ let collection;
 
 // Body parser for working with json
 app.use(BodyParser.json());
-app.use(BodyParser.urlencoded({extended: true }));
+app.use(BodyParser.urlencoded({ extended: true }));
 
 // React runs on 3000 use 3001
 const PORT = 3001;
@@ -56,7 +56,7 @@ gear.map(function (item) {
     flatPanel: item.flatPanel,
     weather: item.weather,
     dome: item.dome,
-    safetyMonitor: item.safetyMonitor
+    safetyMonitor: item.safetyMonitor,
   });
 });
 
@@ -69,7 +69,6 @@ for (let i = 0; i < gear.length; i++) {
 }
 
 console.log(gear);
-
 
 // Using the public folder at the root of the project
 app.use(express.static("public"));
@@ -105,4 +104,3 @@ app.listen(PORT, () => {
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 app.use(favicon(path.join(__dirname, "public", "favicon.ico")));
-
