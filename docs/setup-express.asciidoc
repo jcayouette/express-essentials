@@ -14,9 +14,9 @@ ifdef::env-github[]
 
 == Terms
 
-* ES6: ECMAScript 6
-* nodemon: watches for changes
-* express: the express framework for nodejs
+* **ES6**: ECMAScript 6
+* **nodemon**: watches for changes
+* **express**: the express framework for nodejs
 
 == Setup
 
