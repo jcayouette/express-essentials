@@ -97,7 +97,7 @@ console.log(`The server is running on port ${PORT}`);
 
 == Need mock data?
 
-Browse to: https://mockaroo.com/
+Browse to: link:https://mockaroo.com/[Mockaroo]
 
 === To import mock data
 
