@@ -1,0 +1,17 @@
+[
+    {
+        "telescope": "RASA 8",
+        "camera": "ZWO ASI 1600 MM Pro",
+        "filterWheel": "ZWO ASI EFW"
+    },
+    {
+        "telescope": "Skywatcher 200P",
+        "camera": "FL9000",
+        "filterWheel": "ZWO ASI EFW"
+    },
+    {
+        "telescope": "Omegon 304/1200",
+        "camera": "ZWO ASI 533 MC Pro",
+        "filterWheel": "ZWO ASI EFW"
+    }
+]

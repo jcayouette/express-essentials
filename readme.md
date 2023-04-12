@@ -1,0 +1,101 @@
+# Express Essentials
+
+## Terms
+
+* ES6: ECMAScript 6
+* nodemon: watches for changes
+* express: the express framework for nodejs
+
+## Setup
+
+```
+mkdir express-essentials
+cd express-essentials
+npm init
+```
+
+## Install express-generator
+
+```
+npm install express-generator
+```
+
+## Install express and nodemon
+
+```
+npm install express nodemon
+```
+
+
+
+## Install babel for ES6 support
+
+```
+npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/node
+```
+
+## Configure babelrc
+
+`touch babelrc`
+
+```
+{
+    "presets": ["@babel/preset-env"]
+}
+```
+
+## Configure package.json
+
+
+### Set the type
+
+we want to use modules for es6 in the project. These use modules. 
+Modules are defined in index.js with import and export. __No more require__
+
+```
+  "name": "express-essentials",
+  "type": "module",  <------ set the type
+  "version": "1.0.0",
+  "description": "Express training",
+  "main": "index.js",
+```
+
+### Add the start scripts to package.json
+
+nodemon for monitoring changes on the fly, experimental json modules for loading and working with json data.
+
+```
+"start": "nodemon --experimental-json-modules --exec babel-node index.js"
+```
+
+## Add an index.js
+
+```
+import express from "express";
+
+const app = express();
+
+// React runs on 3000 use 3001
+const PORT = 3001
+
+app.listen(PORT, () => {
+
+console.log(`The server is running on port ${PORT}`);
+});
+```
+
+## Need mock data?
+
+Browse to: https://mockaroo.com/
+
+### To import mock data
+
+Data type now needs to be asserted for the import or you will get an error. 
+
+```
+import data  from "./data/mock.json" assert  {type: 'json',};
+```
+
+
+
+
