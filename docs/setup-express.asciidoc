@@ -28,6 +28,8 @@ npm init
 
 == Install express-generator
 
+You can use the express generator to setup your initial project and save time. The following steps walk through the manual process.
+
 ----
 npm install express-generator
 ----
